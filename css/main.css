@@ -1,0 +1,543 @@
+body, *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FFFBF5;
+}
+@font-face{
+    font-family: 'rob-l';
+    src: url(../font/Roboto-Light.ttf);
+}
+@font-face{
+    font-family: 'rob-r';
+    src: url(../font/Roboto-Regular.ttf);
+}
+@font-face{
+    font-family: 'rob-b';
+    src: url(../font/Roboto-Bold.ttf);
+}
+@font-face{
+    font-family: 'rob-m';
+    src: url(../font/Roboto-Medium.ttf);
+}
+@font-face{
+    font-family: 'rig-r';
+    src: url(../font/Righteous-Regular.ttf);
+}
+@font-face{
+    font-family: 'rob-bl';
+    src: url(../font/Roboto-Black.ttf);
+}
+.container{
+max-width: 1440px;
+margin: auto;
+font-family: 'rob-l';
+color: #000;
+}
+header .title{
+    background-color: #fff;
+    height: 66px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #7B5436;
+    color: #7A7A7A;
+    font-size: 12px;
+    line-height: 15px;
+}
+header .phone{
+    width: 170px;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+header .phone a img{
+    width: 32px;
+    height: 32px;
+}
+header .phone a span{
+    font-size: 18px;
+    line-height: 21px;
+    font-family: 'rob-r';
+    color: #000;
+}
+header .phone a{
+    margin-right: 15px;
+    font-size: 12px;
+    line-height: 15px;
+    color: #7A7A7A;
+}
+header .servise{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+ header .servise .left{
+     display: flex;
+ }
+ header .servise .cost{
+      font-size: 12px;
+      line-height: 15px;
+      color: #7A7A7A;
+      padding-right: 15px;
+      
+ }
+ header .servise .cost span{
+    font-size: 18px;
+    line-height: 21px;
+    font-family: 'rob-r';
+    color: #000;
+ }
+ header .servise .shop img{
+     width: 32px;
+     height: 32px;
+    
+ }
+ header .servise .shop span{
+     width: 20px;
+     height: 20px;
+     background-color: #7B5436;
+     position: absolute;
+     border-radius: 50%;
+     color: #fff;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     top: -6px;
+     right: 125px;
+ }
+ header .servise a{
+     margin-left: 15px;
+     margin-right: 15px;
+ }
+ header .titlebot{
+     padding: 17px 20px 15px 40px;
+     background-color: #fff;
+ }
+ header .titlebot ul{
+     list-style-type: none;
+     display: flex;
+     align-items: center;
+ }
+ header .titlebot a{
+    text-transform: uppercase;
+    color:#000;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'rig-r';
+    margin-left: 11px;
+    margin-right: 11px;
+ }
+ header .titlebot ul li:last-child{
+     margin-left: auto;
+ }
+ header .titlebot ul li:first-child{
+     margin-right: 110px;
+ }
+ header .titlebot ul li:first-child span{
+     margin-right: 15px;
+ }
+ header .slayd{
+     width: 467px;
+     height: 129px;
+     background-color: #7B5436;
+     margin: auto;
+     text-align: center;
+     padding: 31px 40px 26px;
+     margin-bottom: 33px;
+ }
+ header .slayd .titlebig{
+    font-size: 28px;
+    line-height: 35px;
+    color: #fff;
+    font-family: 'rig-r';
+    margin-bottom: 15px;
+ }
+ header .slayd .text{
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    font-family: 'rig-r';
+ }
+header .img{
+    height: 227px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pictop{
+    margin-bottom: 23px;
+    margin-top: 55px;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+.pictop .menu a{
+    margin-left: 18px;
+}
+.pictop .menu li a{
+    font-size: 16px;
+    line-height: 19px;
+    color: #000;
+    font-family: 'rob-l';
+}
+.pictop .menu span{
+    margin-left: 9px;
+}
+.pictop .menu .right{
+    margin-right: auto;
+}
+.pictop .menu li:last-child{
+    margin-left: auto;
+}
+.pictop .menu{
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #E5E5E5;
+    list-style-type: none;
+}
+.pictop .bottom{
+    display: flex;
+    align-items: center;
+    padding:;
+}
+.pictop .bottom .right{
+    margin-left: auto;
+}
+.pictop .bottom select{
+    margin-right: 35px;
+    margin-top: 15px;
+    margin-bottom: 23px;
+    font-size: 16px;
+    line-height: 19px;
+    font-family: 'rob-r';
+}
+.pictop .bottom select:first-child{
+    margin-left: 17px;
+}
+.pictop .bottom .right img{
+    margin-right: 8px;
+}
+.box .row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box .row .col-3{
+    flex-basis: 25%;
+    max-width: 25%;
+    padding: 12px;
+}
+.box .item{
+    background-color: #FFFFFF;
+    padding: 0px 40px 18px 18px;
+    box-shadow: 0px 9px 8px -1px rgba(0, 0, 0, 0.08);
+border-radius: 10px;
+    position: relative;
+}
+.box .item img{
+    display: flex;
+    margin: auto;
+}
+.box .item p{
+    font-size: 12px;
+    line-height: 25px;
+    font-family: 'rob-r';
+    color: #7A7A7A;
+}
+.box .item a{
+    font-size: 18px;
+    line-height: 25px;
+    font-family: 'rob-r';
+    color: #000;
+    margin-bottom: 10px;
+}
+.box .item a .sale{
+    
+    font-size: 14px;
+    line-height: 25px;
+    font-family: 'rig-r';
+    width: 36px;
+    height: 36px;
+    background-color: #E05E5E;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0px;
+    left: 0;
+}
+.box .item a span {
+    display: block;
+    font-family: 'rig-r';
+    font-size: 24px;
+    line-height: 32px;
+    width: 32px;
+    height: 32px;
+    background-color: #E05E5E;
+    color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 16px;
+    top: 184px;
+
+}
+.box .item .text{
+    margin-left: 33px;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000;
+    font-family: 'rob-bl';
+}
+.box .item .text span{
+    font-size: 14px;
+line-height: 25px;
+font-family: 'rob-m';
+color: #000;
+}
+.box .item .heart{
+    position: absolute;
+    top: 16px;
+    right: 19px;
+}
+.box .item .money{
+    position: absolute;
+    bottom: 22px;
+    left: 18px;
+}
+.box  .about{
+    background-color: #7B5436;
+    padding: 43px 29px 48px 29px;
+    box-shadow: 0px 9px 8px -1px rgba(0, 0, 0, 0.08);
+border-radius: 10px;
+
+}
+.box  .about .title{
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+    font-family: 'rig-r';
+    margin-bottom: 11px;
+}
+.box  .about p{
+    text-transform: uppercase;
+    font-size: 28px;
+line-height: 35px;
+color: #fff;
+font-family: 'rig-r';
+margin-bottom: 15px;
+}
+.box .about input{
+    border-radius: 10px;
+    width: 100%;
+    height: 36px;
+    padding-left: 20px;
+    display: block;
+    border:0;
+    margin-bottom: 15px;
+}
+.box .about a{
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    font-family: 'rob-l';
+}
+.box .about a span img{
+    margin-left: 10px;
+}
+.banner {
+    margin-top: 30px;
+    margin-bottom: 24px;
+}
+.banner .title{
+    padding-right: 65px;
+    height: 332px;
+}
+.banner .text{
+    padding-top: 93px;
+    color: #fff;
+    text-align: right;
+}
+.banner .bigtext{
+    font-family: 'rig-r';
+    font-size: 36px;
+line-height: 45px;
+    text-align: right;
+    color: #fff;
+    margin-bottom: 16px;
+}
+.banner .smalltext{
+    width: 437px;
+    height: 61px;
+    font-size: 16px;
+line-height: 19px;
+margin-left: auto;
+text-align: right;
+font-family: 'rob-l';
+color: #FFFFFF;
+margin-bottom: 31px;
+}
+.banner a{
+    text-transform: uppercase;
+    font-family: 'rig-r';
+    font-size: 16px;
+line-height: 19px;
+display: flex;
+justify-content: flex-end;
+color: #FFFFFF;
+margin-bottom: 58px;
+}
+.zagruz {
+    margin-top: 40px;
+    margin-bottom: 72px;
+    text-align: center;
+}
+.zagruz button{
+    width: 332px;
+    height: 67px;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #7B5436;;
+    border-top: 1px solid #7B5436;
+    background: #FFFBF5;
+}
+.review .container{
+   margin-top: 52px;
+   margin-bottom: 52px;
+   position: relative;
+}
+.review .title{
+    font-size: 24px;
+line-height: 25px;
+text-transform: uppercase;
+color: #000000;
+font-family: 'rig-r';
+text-align: center;
+margin-bottom: 60px;
+}
+.review .text{
+    font-size: 16px;
+line-height: 25px;
+margin: auto;
+text-align: center;
+font-family: 'rig-r';
+color: #000000;
+width: 583px;
+height: 101px;
+position: relative;
+margin-bottom: 21px;
+}
+.review .text span{
+    font-size: 144px;
+line-height: 179px;
+text-transform: uppercase;
+color: #7B5436;
+position: absolute;
+top: -60px;
+left: -70px;
+
+}
+.review .start{
+    display: flex;
+    justify-content: center;
+}
+.review .start button{
+    margin: 6px;
+}
+.review p{
+    font-size: 14px;
+line-height: 25px;
+text-align: center;
+text-transform: uppercase;
+font-family: 'rig-r';
+color: #7A7A7A;
+margin-bottom: 7px;
+}
+.review .author{
+    font-size: 18px;
+line-height: 25px;
+font-family: 'rig-r';
+text-align: center;
+text-transform: uppercase;
+color: #000000;
+}
+.review button.left {
+    position: absolute;
+    top: 150px;
+    border: 0;
+
+}
+.review button.right {
+    position: absolute;
+    right: 20px;
+    top: 150px;
+    border: 0;
+}
+footer .title{
+    padding:49px 0px 19px;
+    display: flex;
+    justify-content: space-between;
+}
+footer .item .text{
+    font-size: 18px;
+    line-height: 21px;
+    font-family: 'rob-m';
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 26px;
+    position: relative;
+}
+footer .item .text:after{
+    content: '';
+    width: 54px;
+    height: 1px;
+    background-color: #7B5436;
+    position: absolute;
+    left: 0;
+    top: 30px;
+}
+footer .item li a{
+    font-size: 14px;
+    line-height: 26px;
+    font-family: 'rob-l';
+    text-transform: unset;
+    color: #000000;
+}
+footer .contact .center {
+    margin: 0px 25px;
+    
+}
+footer .phone{
+    font-size: 14px;
+    line-height: 26px;
+    font-family: 'rob-l';
+    color: #000000;
+    margin-top: 26px;
+}
+footer .phone a{
+    font-size: 24px;
+line-height: 26px;
+font-family: 'rob-b';
+color: #000000;
+}
+footer .item .push{
+    margin: 0px 13px;
+}
+footer .theend{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
